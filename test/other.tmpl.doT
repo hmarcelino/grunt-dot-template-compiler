@@ -1,0 +1,5 @@
+<script id="role-info-tmpl" type="text/x-doT-tmpl">
+	<div class="role-info">
+		<div>Hi {{=it.name}}!</div>
+	</section>
+</script>

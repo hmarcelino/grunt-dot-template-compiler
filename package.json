@@ -1,0 +1,26 @@
+{
+  "name": "grunt-dot-tmpl-compiler",
+  "version": "0.1.0",
+  "author": "Hugo Marcelino <hugo.m.marcelino@gmail.com>",
+  "description": "Compiles doT templates",
+  "contributors": [
+    {
+      "name": "Hugo Marcelino",
+      "email": "hugo.m.marcelino@gmail.com"
+    }
+  ],
+  "dependencies": {
+    "grunt": "~0.4.0",
+    "grunt-cli": "~0.1.9",
+    "grunt-contrib-less": "~0.6.1",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-uglify": "~0.2.2",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-qunit": "~0.3.0",
+    "grunt-lib-phantomjs": "~0.4.0",
+    "grunt-image-embed": "~0.3.1",
+    "jsdom": "~0.8.0",
+    "dot": "~1.0.2"
+  },
+  "engine": "node >= 0.10.12"
+}

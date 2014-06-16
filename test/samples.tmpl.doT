@@ -1,0 +1,14 @@
+<script id="user-info-tmpl" type="text/x-doT-tmpl">
+	<div class="user-info">
+		<div>Hi {{=it.name}}!</div>
+		<div>{{=it.age || ''}}</div>
+	</section>
+</script>
+
+<script id="list-items" type="text/x-doT-tmpl">
+	<ul class="list-items">
+		{{~it.array :value:index}}
+			<li class="item">{{=value}}!</li>
+		{{~}}
+	</ul>
+</script>

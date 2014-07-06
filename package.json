@@ -1,6 +1,6 @@
 {
   "name": "grunt-dot-tmpl-compiler",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Hugo Marcelino <hugo.m.marcelino@gmail.com>",
   "description": "Compiles doT templates",
   "contributors": [
@@ -9,6 +9,10 @@
       "email": "hugo.m.marcelino@gmail.com"
     }
   ],
+  "repository": {
+    "type":"git",
+    "url":"https://github.com/hmarcelino/grunt-dot-template-compiler"
+  },
   "dependencies": {
     "grunt": "~0.4.0",
     "grunt-cli": "~0.1.9",

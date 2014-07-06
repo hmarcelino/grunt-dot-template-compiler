@@ -56,7 +56,12 @@ var out='<ul class="list-items">';var arr1=it.array;if(arr1){var value,index=-1,
 };
 ```    
 
-To use, just add:
+### Usage:
+
+`npm install --save grunt-dot-tmpl-compiler`
+
+And add to your GruntFile.js:
+
 `grunt.loadNpmTasks('grunt-dot-tmpl-compiler');`
 
 ### Arguments:

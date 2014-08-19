@@ -8,7 +8,7 @@ You create multiple template files with several `script` blocks for each templat
 
 **Grunt config**:
      
-```json
+```javascript
 grunt.initConfig({
 	"doTCompiler" : {
 		"templates-with-variablename": {
